@@ -1,0 +1,24 @@
+@media (max-width:375px){
+    .selection{
+    display:none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .image{
+        max-width:351px;
+        height:224px; 
+        margin-bottom: 24px;
+        overflow: hidden;
+        
+     }
+     .card{
+        max-width:350px;
+     }
+     .footer{
+        flex-direction: column;
+     }
+}

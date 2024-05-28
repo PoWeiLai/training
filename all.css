@@ -1,0 +1,301 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    list-style: none;
+}
+body{
+ 
+    width:100%;
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 1296px;
+
+}
+
+
+
+
+.card{
+    width:636px;
+}
+.image{
+   max-width:636px;
+   max-height:400px; 
+   margin-bottom: 24px;
+   overflow: hidden;
+   
+}
+
+.image img:hover{
+    transform:scale(1.5);
+
+}
+img{
+    border-radius: 8px;
+ 
+}
+*{
+    font-family:Noto Sans;
+}
+
+.allBtn{
+   
+    display: flex;
+    gap:10px;
+    margin-top:24px;
+   
+}
+.btn{
+     display: block;
+    border-radius:16px;
+    padding:4px 16px 4px 16px;
+    background-color:#F1F1F1;
+    
+}
+.part-area{
+    background-color: #F1F1F1;
+    width:100%;
+    padding:50px 0px;
+
+}
+.body-content{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    padding:0px 16px 0px 16px;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    gap: 40px;
+    width: 660px;
+
+}
+.contentLeft{
+    width: 320px;
+
+}
+.contentRight{
+    width: 320px;
+}
+.page-active{
+    color: #fff;
+}
+.page-normal{
+    color: #000;
+}
+.container{
+    margin:0 auto;
+    width: 1296px;
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+    
+}
+.card{
+    padding-top:48px;
+}
+.text-c{
+    text-align: center;
+}
+.text-r{
+    text-align: right;
+}
+
+.banner{
+
+    width: 670px;
+    height: 192px;
+}
+.body-banner{
+    display: flex;
+    justify-content: center;
+ 
+    padding-top:30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.selection{
+    width: 480px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.g-16{
+    gap:16px;
+}
+
+.fs-4{
+    font-size:24px;
+    font-weight:400;
+}
+
+
+.fs-5{
+    font-size:20px;
+    font-weight:400;
+}
+.fs-6{
+    font-size:16px;
+    font-weight:400;
+}
+
+.lh-1{
+    Line-height:36px;
+}
+.lh-2{
+    Line-height:33.6px;
+}
+.lh-3{
+    Line-height:30px;
+}
+.lh-4{
+    Line-height:28.8px;
+}
+.lh-5{
+    Line-height:24px;
+}
+
+h1{
+    font-size:28px;
+    font-weight:700;
+}
+
+h4{
+    font-size:24px;
+    font-weight:400;
+}
+
+h5{
+    font-size:20px;
+    font-weight:400;
+}
+
+.bk-1{
+    background-color: black;
+    color:white ;
+    padding:12px;
+    border-radius: 4px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+.squ{
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    gap:10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+      padding: 2px 13px ;
+      margin-top:50px;
+}
+.footer{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+    z-index:2;
+    position: relative;
+
+}
+.footerImg img{
+    z-index:1;
+    position: absolute;
+    max-width:100%;
+}
+
+.footerLeft{
+ width: 686px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ z-index:2;
+
+}
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    gap:6px;
+    z-index:2;
+
+}
+
+.footerRight button{
+    width: 306px;
+    border-radius: 8px;
+    padding: 8px 24px;
+    height: 72px;
+    margin:6px 0px;
+}
+
+.footerRight a{
+    text-decoration: none;
+    color: black; 
+}
+
+
+@import "/rwd.css";
