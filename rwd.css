@@ -1,5 +1,15 @@
+@media (max-width: 480px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
+
+
 @media (max-width:375px){
-    .selection{
+    .card-list {
+        flex-direction: column;
+    }
+    /* .selection{
     display:none;
     }
     .content{
@@ -20,5 +30,5 @@
      }
      .footer{
         flex-direction: column;
-     }
+     } */
 }

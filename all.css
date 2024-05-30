@@ -58,7 +58,7 @@ body{
     margin: 0 auto;
     max-width: 1296px;
 
-}
+} 
 
 
 
@@ -136,11 +136,14 @@ img{
 }
 .container{
     margin:0 auto;
-    width: 1296px;
+    max-width: 1320px;
+    padding: 0 12px;
+}
+
+.card-list {
     display:flex;
     gap:24px;
     flex-wrap:wrap;
-    
 }
 .card{
     padding-top:48px;
@@ -230,10 +233,10 @@ h5{
     padding:12px;
     border-radius: 4px;
 }
-.container{
+/* .container{
     display: flex;
     justify-content: center;
-}
+} */
 a{
     text-decoration: none;
     color: black; 
@@ -297,5 +300,16 @@ a{
     color: black; 
 }
 
+.d-none {
+    display: none;
+}
 
-@import "/rwd.css";
+@media (max-width: 399px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
+
+
+
+/* @import "/rwd.css"; */
