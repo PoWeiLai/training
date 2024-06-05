@@ -80,7 +80,7 @@ body{
 }
 img{
     border-radius: 8px;
- 
+    max-width:100%;
 }
 *{
     font-family:Noto Sans;
@@ -144,9 +144,12 @@ img{
     display:flex;
     gap:24px;
     flex-wrap:wrap;
+    justify-content: center;
 }
 .card{
     padding-top:48px;
+    width: calc(50% - 12px)
+
 }
 .text-c{
     text-align: center;
@@ -304,9 +307,15 @@ a{
     display: none;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 375px) {
     .card-list {
         flex-direction: column;
+    }
+    .container {
+        padding: 0 12px;
+    }
+    .card {
+        width: 100%;
     }
 }
 
