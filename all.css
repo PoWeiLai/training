@@ -74,8 +74,13 @@ body{
     transform:scale(1.5);
 
 }
+<<<<<<< HEAD
 .img{
    
+=======
+img{
+    border-radius: 8px;
+>>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
     max-width:100%;
 }
 *{
@@ -143,9 +148,14 @@ body{
 }
 .card{
     padding-top:48px;
+<<<<<<< HEAD
     width: calc(50% - 12px);
   
     
+=======
+    width: calc(50% - 12px)
+
+>>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
 }
 .text-c{
     text-align: center;
@@ -153,6 +163,7 @@ body{
 .text-r{
     text-align: right;
 }
+
 
 .banner{
 
@@ -308,6 +319,7 @@ a{
         padding: 0 12px;
     }
     .card {
+<<<<<<< HEAD
         max-width: 100%;
     }
     .content{
@@ -348,6 +360,9 @@ a{
     .footer{
         flex-direction: column;
         max-width:100%;
+=======
+        width: 100%;
+>>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
     }
 }
 
