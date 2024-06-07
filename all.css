@@ -54,33 +54,29 @@ body{
  
     width:100%;
 }
-.wrap{
-    margin: 0 auto;
-    max-width: 1296px;
 
-} 
 
 
 
 
 .card{
-    width:636px;
+    max-width:636px;
 }
 .image{
    max-width:636px;
    max-height:400px; 
    margin-bottom: 24px;
    overflow: hidden;
-   
+   border-radius: 8px;
 }
 
 .image img:hover{
     transform:scale(1.5);
 
 }
-img{
-    border-radius: 8px;
- 
+.img{
+   
+    max-width:100%;
 }
 *{
     font-family:Noto Sans;
@@ -115,7 +111,6 @@ img{
 .content{
     padding:0px 16px 0px 16px;
     display: flex;
-    justify-content: center;
     margin-top:30px;
     gap: 40px;
     width: 660px;
@@ -144,9 +139,13 @@ img{
     display:flex;
     gap:24px;
     flex-wrap:wrap;
+    justify-content: center;
 }
 .card{
     padding-top:48px;
+    width: calc(50% - 12px);
+  
+    
 }
 .text-c{
     text-align: center;
@@ -233,10 +232,7 @@ h5{
     padding:12px;
     border-radius: 4px;
 }
-/* .container{
-    display: flex;
-    justify-content: center;
-} */
+
 a{
     text-decoration: none;
     color: black; 
@@ -262,16 +258,16 @@ a{
     justify-content: space-between;
     z-index:2;
     position: relative;
-
+    background: url(../footer-bg-lg.png);
 }
-.footerImg img{
+/* .footerImg img{
     z-index:1;
     position: absolute;
     max-width:100%;
-}
+} */
 
 .footerLeft{
- width: 686px;
+ max-width: 686px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -281,7 +277,7 @@ a{
 .footerRight{
     display: flex;
     flex-direction: column;
-    width: 306px;
+   max-width: 306px;
     gap:6px;
     z-index:2;
 
@@ -304,9 +300,54 @@ a{
     display: none;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 375px) {
     .card-list {
         flex-direction: column;
+    }
+    .container {
+        padding: 0 12px;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .img{
+        max-width:100%;
+       
+    }
+    .image{
+        max-width: 100%;
+       
+    }
+    .body-banner{
+        flex-direction: column;
+    }
+    /* .body-banner img{
+      max-width:20%;
+      text-align: center;
+    } */
+    .quote{
+        display: none;
+    }
+    .contentLeft,.contentRight{
+        padding:0px 30px;
+    }
+    .body-banner h2{
+        text-align: center;
+    }
+    .selection{
+        display: none;
+    }
+    .footerImg{
+        display: flex;
+        justify-content: center;
+        max-width:100%;
+    }
+    .footer{
+        flex-direction: column;
+        max-width:100%;
     }
 }
 
