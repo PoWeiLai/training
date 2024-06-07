@@ -80,8 +80,7 @@ body{
 =======
 img{
     border-radius: 8px;
->>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
-    max-width:100%;
+ 
 }
 *{
     font-family:Noto Sans;
@@ -148,14 +147,6 @@ img{
 }
 .card{
     padding-top:48px;
-<<<<<<< HEAD
-    width: calc(50% - 12px);
-  
-    
-=======
-    width: calc(50% - 12px)
-
->>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
 }
 .text-c{
     text-align: center;
@@ -314,55 +305,6 @@ a{
 @media (max-width: 375px) {
     .card-list {
         flex-direction: column;
-    }
-    .container {
-        padding: 0 12px;
-    }
-    .card {
-<<<<<<< HEAD
-        max-width: 100%;
-    }
-    .content{
-        flex-direction: column;
-    }
-    .img{
-        max-width:100%;
-       
-    }
-    .image{
-        max-width: 100%;
-       
-    }
-    .body-banner{
-        flex-direction: column;
-    }
-    /* .body-banner img{
-      max-width:20%;
-      text-align: center;
-    } */
-    .quote{
-        display: none;
-    }
-    .contentLeft,.contentRight{
-        padding:0px 30px;
-    }
-    .body-banner h2{
-        text-align: center;
-    }
-    .selection{
-        display: none;
-    }
-    .footerImg{
-        display: flex;
-        justify-content: center;
-        max-width:100%;
-    }
-    .footer{
-        flex-direction: column;
-        max-width:100%;
-=======
-        width: 100%;
->>>>>>> 1a3f925bfe664e9b76d693e8b3be60d80e26c737
     }
 }
 
